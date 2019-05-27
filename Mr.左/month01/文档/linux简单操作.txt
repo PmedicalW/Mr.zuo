@@ -1,0 +1,140 @@
+王伟超
+  wangweichao@tedu.cn
+1、三大操作系统
+  1、Unix ：MacOS
+  2、Linux ：Ubuntu18.04 、CentOS、RedHat
+  3、Windows ：Win7、Win8、Win10
+2、VMware Workstation:桌面虚拟计算机软件
+3、安装教学环境
+  1、安装VMware Workstation软件
+  2、解压教学环境压缩包 ：
+     Python教学环境20180815.rar
+  3、打开VMware,文件 - 打开 - 选择解压后Ubuntu路径
+  4、点击 ：启动虚拟机
+4、终端 ：用来输入Linux命令,ctrl+alt+t可以直接打开
+5、根 / ：文件系统起始位置(类似于Windows中计算机)
+6、Linux命令格式
+   命令名 选项 参数
+7、Linux命令
+  1、pwd ：查看当前所在路径
+  2、ls  ：显示指定路径下有哪些内容
+     ls -l ：以长格式显示(long)
+     ls -a ：显示所有(包含隐藏)all
+     ls -la
+     ls -al
+  3、路径
+     绝对路径 ：以 / 开始的路径 /home/tarena
+     相对路径 ：不以 / 开始的路径
+  4、cd ：切换目录
+     cd 路径
+     cd ..  ：回退到上一级目录
+     cd     ：回到用户主目录
+  5、练习
+    1、切换到目录 ：/home/tarena/software/fiddler
+      方法1 ：cd /home/tarena/software/fiddler
+      方法2 ：cd
+              cd software/fiddler
+    2、查看当前所在路径
+      pwd
+    3、长格式显示当前目录中的所有内容(包含隐藏)
+      ls -la
+    4、切换到上一级目录,即:/home/tarena/software
+      cd ..
+    5、切换到/etc目录,查看里面内容
+      cd /etc
+    6、直接切换到用户主目录
+      cd
+  6、mkdir ：创建文件夹(make directory)
+     mkdir 目录1 目录2 目录3 
+     mkdir -p D/E/F  ：递归创建目录
+     1、在用户主目录下创建目录：爷爷
+        在爷爷目录下创建目录  ：爸爸
+        在爸爸目录下创建目录  ：我
+     2、在 我 目录下创建如下目录结构
+                我
+	+-------+---------+
+	|       |         |
+       学习    编程     对象
+     3、查看 我 目录下所有内容
+        ls -a
+     4、切换到上两级目录
+        cd ../../
+     5、直接切换到用户主目录
+        cd
+  7、touch ：创建文件
+     touch 文件1 文件2 文件3
+
+  8.rmdir  删除文件夹（只能删除空目录）
+     rm   删除文件
+       -f  强制删除
+　     -r  逐级逐层删除
+　   rm -rf  文件及文件夹
+
+  ９.cat  查看文件内容
+　　　more   查看文件内容（分页）
+
+
+　10.cp  复制命令
+　　 cp 源文件　指定路径
+
+
+　11.mv  移动命令
+　　　移动：mv 源文件　指定路径
+　　　重命名：mv 原文件名　新文件名
+
+　12.sudo  以管理员权限执行命令
+快捷键:
+  13.exit 退出终端
+　14.ctrl+d  退出终端
+  15.ctrl+c  终止当前命令
+  16.shutdown now  立即关机
+　17.reboot  重启
+
+
+
+
+
+
+  18、常用快捷键
+    1、Tab ：自动补齐
+    2、Ctrl + c ：终止当前命令执行
+    3、Ctrl + l ：清屏
+    4、上下箭头 ：翻出之前执行过的命令
+    5、Ctrl + shift + '+' : 终端字体放大
+    6、Ctrl + '-' ：终端字体缩小
+    7、Ctrl + shift + t ：添加一个终端
+    8、exit 退出终端
+  10、练习
+    1、在用户主目录下创建目录 ：tiger/lion/monkey
+    2、在monkey目录下创建文件：hello.py game.py
+       并查看文件的详细信息(创建时间,大小等)
+    3、在lion目录下创建文件students.py study.py
+       并查看文件的详细信息(创建时间,大小等)
+    4、切换到tiger目录,查看当前所在路径
+    5、直接切换到用户主目录
+
+
+
+     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
